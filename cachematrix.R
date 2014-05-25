@@ -1,7 +1,7 @@
 ## Put comments here that give an overall description of what your
 ## functions do
 
-## WThis function will store the cached matrix and will look up when necessary.
+## This function will store the cached matrix and will look up when necessary.
 
 makeCacheMatrix <- function(x = matrix()) {
     m <- NULL
@@ -35,7 +35,7 @@ cacheSolve <- function(x, ...) {
         return(m)
     }
     
-    ## creates the inverse and save it
+    ## creates the inverse and saves it
     
     data <- x$get()
     m <- solve(data,...)
